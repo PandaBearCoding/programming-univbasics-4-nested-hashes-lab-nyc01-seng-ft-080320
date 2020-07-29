@@ -123,6 +123,8 @@ end
 
 programmer_hash[:alan_kay][:known_for = "GUI"]
 
+programmer_hash[:alan_kay][:languages] << "Assembly"
+
 #//
 
 def adding_to_dennis
@@ -147,4 +149,5 @@ def adding_to_dennis
 
 end
 
-programmer_hash.push[:dennis_ritchie][:languages = "Assembly"]
+programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+programmer_hash
